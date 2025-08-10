@@ -2,7 +2,7 @@ body{
   padding: 0px;
   text-align: center;
   font-family: "Pangolin", Sans-Serif;
-  background-image: url(https://uploads.onecompiler.io/43j2hpyft/43t8nrcm9/istockphoto-2166371672-612x612.jpg);
+  background-image: url(./assets/bg.jpg);
   color: #fff;
 }
 
@@ -56,4 +56,5 @@ body{
   margin: 0 auto 15px;
   box-shadow: 0 2px 8px rgb(0 0 0 / 0.6);
   flex-grow: 0;
+
 }
