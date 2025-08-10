@@ -1,0 +1,59 @@
+body{
+  padding: 0px;
+  text-align: center;
+  font-family: "Pangolin", Sans-Serif;
+  background-image: url(https://uploads.onecompiler.io/43j2hpyft/43t8nrcm9/istockphoto-2166371672-612x612.jpg);
+  color: #fff;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.desc {
+  font-weight: 150;
+  font-size: 20px;
+}
+
+.tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  color: #000;
+}
+
+.tile {
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  width: 440px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+}
+
+.tile-title {
+  padding: 15px 10px 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.tile-image {
+  width: 90%;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 0 auto 15px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.6);
+  flex-grow: 0;
+}
